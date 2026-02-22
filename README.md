@@ -2,6 +2,10 @@
 
 A small Python utility to keep an Immich album in sync with assets that contain no detected people ("faceless" assets). The script queries the Immich API for assets, finds those without people metadata, and ensures a configured album contains exactly those assets (adds missing ones and removes assets that now contain people).
 
+I find this useful because I take a lot of techinical photos of projects for work/hobbies and WAY MORE pictures of my kids.  When I need to find a technical picture the search tool isn't always useful. Having a quick way seeing only assets that are not my kids (or other people) is very helpful.
+
+A second use is to have an easy way to see whcih photos the machine learning missed when tagging people.
+
 This repository contains:
 - `faceless_album_sync.py` — the sync script you run on a schedule (cron / Task Scheduler).
 - `.env` (example provided) — runtime configuration (API key, URL, logging, email).

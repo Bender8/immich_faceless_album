@@ -1,4 +1,6 @@
-# Immich Faceless Album Sync
+# DEPRECATED USE Bender8/immich_auto_album INSTEAD!!!
+# THIS FUNCTIONALITY IS NOW INCLUDED IN Bender8/immich_auto_album
+## Immich Faceless Album Sync
 
 A small Python utility to keep an Immich album in sync with assets that contain no detected people ("faceless" assets). The script queries the Immich API for assets, finds those without people metadata, and ensures a configured album contains exactly those assets (adds missing ones and removes assets that now contain people).
 
